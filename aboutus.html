@@ -1,53 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Page</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/style.css" />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+    crossorigin="anonymous"
+  />
+  <title>To Do List</title>
 </head>
 <body>
-    <header id="header">
-        <nav class="nav container">
-            
-            <div class="header">
-                <img src="/logo.png" alt="logo"width=100 height="=30" />
-                <h1>TODo Website</h1>
-                <li class="nav-link"><a href="/">Home</a></li>
-            <li class="nav-link"><a href="/aboutus.html">About Us</a></li>
-            <li class="nav-link"><a href="/contactus">Contact Us</a></li>
-              </div>
+  <header id="header">
+    <nav class="nav container">
 
-        </nav>
-      </header>
-      <main>
-        <hr />
-      <div class="container">
-        <img src="/hanan.jpg" height="100"width="100"  />
-         <div class="Name">Hanan Nathem Saadeh</div>
-            <div class="description">.NET Developer</div>
-            
-          </div>
-       
-        
-        <section class="contact">
-          <h3>Contact Me</h3>
-          <div class="form">
-            <label for="fname">name:</label>
-            <input type="text" id="fname" name="fname" />
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" />
-            <label for="message">Your Message</label>
-            <textarea name="message"></textarea>
-          </div>
-          <a href="#" class="submit">submit</a>
-        </section>
+      <div class="logo">
+        <i class="fas fa-list-alt"></i>
       </div>
-    </main>
-      <footer>
-        <hr />
-        <div class="copy-right">&copy; copy rights reserved</div>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a></footer>
+      <ul class="nav-links">
+        <li class="nav-link"><a href="/">Home</a></li>
+        <li class="nav-link"><a href="/aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main id="main">
+    <div class="container">
+      <section class="info">
+        <div><i class='fas fa-user-tie fa-spin fa-3x'></i>
+        </div>
+        
+        <div>
+          <div class="info-title">Hanan Nathem Saadeh</div>
+          <div class="description">I am 30 years old,
+             I studied computer science and application at Hashemite University,
+            I'm web developer to be... with an undying passion to work and learn everything about programming.</div>
+        </div>
+      </section>
+      <hr />
+      <section class="contact">
+        <h3>Contact Me</h3>
+        <div class="form">
+          <label for="fname">Your name:</label>
+          <input type="text" id="fname" name="fname" />
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" />
+          <label for="fname">Phone number</label>
+          <input type="text" id="fname" name="fname" />
+          <label for="message">Your Message</label>
+          <textarea name="message"></textarea>
+
+          
+        </div>
+        <a href="#" class="submit">submit</a>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="copy-right"> All rights reserved 2022 &copy;</div>
+    
+  </footer>
 </body>
 </html>
